@@ -1,0 +1,20 @@
+<h1>PROBLEM LIST</h1>
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Title</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let problem of problems_list">
+        <td>{{problem.id}}</td>
+        <td>{{problem.title}}</td>
+    </tr>
+    </tbody>
+</table>
+<div class="pages-switch pages-switch-problem">
+    <button (click)="pageOffset(-1)">&lt;</button>
+    <input placeholder=" " [(ngModel)]="page" (keypress)="catchEnter()" type="number"> / {{page_count}}
+    <button (click)="pageOffset(+1)">&gt;</button>
+</div>

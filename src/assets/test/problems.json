@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "测试标题",
+    "time_limit": 1000,
+    "memory_limit": 268435456,
+    "input_method": 1,
+    "output_method": 1,
+    "description": "测试描述",
+    "input_description": "测试输入描述",
+    "output_description": "测试输出描述",
+    "input_sample": "输入样例",
+    "output_sample": "输出样例",
+    "hint": "提示信息",
+    "public": true,
+    "author": "root",
+    "created": "2018-08-10T00:21:43.615917Z",
+    "modified": "2018-08-10T00:21:43.615986Z"
+  }
+]
